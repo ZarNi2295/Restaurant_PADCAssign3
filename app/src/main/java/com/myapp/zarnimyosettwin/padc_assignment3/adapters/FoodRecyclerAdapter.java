@@ -12,11 +12,9 @@ import com.myapp.zarnimyosettwin.padc_assignment3.delegates.FoodItemDelegate;
 import com.myapp.zarnimyosettwin.padc_assignment3.views.viewholders.FoodItemViewHolder;
 
 public class FoodRecyclerAdapter extends RecyclerView.Adapter<FoodItemViewHolder> {
-    private Context context;
     private FoodItemDelegate foodItemDelegate;
 
-    public FoodRecyclerAdapter(Context context, FoodItemDelegate foodItemDelegate) {
-        this.context = context;
+    public FoodRecyclerAdapter(FoodItemDelegate foodItemDelegate) {
         this.foodItemDelegate = foodItemDelegate;
     }
 

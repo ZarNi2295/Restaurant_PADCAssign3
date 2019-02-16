@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity implements FoodItemDelegate 
         setSupportActionBar(toolbar);
         ButterKnife.bind(this, this);
         rvFoods.setLayoutManager(new LinearLayoutManager(getApplicationContext(), LinearLayoutManager.VERTICAL, false));
-        FoodRecyclerAdapter foodRecyclerAdapter = new FoodRecyclerAdapter(getApplicationContext(), this);
+        FoodRecyclerAdapter foodRecyclerAdapter = new FoodRecyclerAdapter(this);
         rvFoods.setAdapter(foodRecyclerAdapter);
 
     }

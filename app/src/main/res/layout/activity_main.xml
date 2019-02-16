@@ -20,21 +20,19 @@
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
             <RelativeLayout
-                android:id="@+id/rl_main_collepse"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <View
                     android:id="@+id/circle"
-                    android:layout_width="300dp"
-                    android:layout_height="290dp"
-                    android:layout_marginLeft="-80dp"
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:layout_marginLeft="-100dp"
                     android:layout_marginTop="-30dp"
                     android:background="@drawable/circle"
                     android:fitsSystemWindows="true" />
 
                 <android.support.v7.widget.AppCompatTextView
-                    android:id="@+id/tv_title"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
                     android:text="Discover Resturants"
